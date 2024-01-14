@@ -1,0 +1,142 @@
+/*  Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap');
+
+/* all body measuring manually */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* root color and fonts */
+:root{
+    --primary-color:#E02C6D;
+    --color: #3A3A3A;
+    --card-title-color: #18191F;
+    --card-price-Color: rgba(0, 0, 0, 0.87);
+    --card-description-color: #787885;
+}
+/* container */
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+/* primary button */
+.primary-btn{
+    color: #FFF;
+    background-color: var(--primary-color);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 6px 20px;
+    border: 2px solid var(--primary-color);
+    border-radius: 41px;
+}
+.right-arrow{
+    padding-left: 10px;
+}
+/* header part css style */
+.header{
+    margin: 60px 0 100px 0;
+}
+/* navigation part css style */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.nav-icon{
+    color: var(--color);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.navigation > .nav{
+    display: flex;
+    gap: 34px;
+}
+.nav li{
+    list-style: none;
+}
+.nav li a{
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* banner section css style */
+
+#banner{
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+.banner-content{
+    width: 500px;
+}
+.banner-title{
+    color: var(--color);
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.banner-description{
+    color: var(--color);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.banner-img{
+    background-image: url(../images/Circle\ design.svg);
+    height: 470px;
+    width: 470px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-img img{
+    position: relative;
+    width: 440px;
+    inset: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px){
+
+    .navigation{
+        flex-direction: column;
+    }
+    #banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+    }
+}
