@@ -235,51 +235,19 @@ body{
     font-size: 1rem;
     font-weight: 700;
     line-height: 28px;
-    margin-top: 16px;
 }
-/* footer part css style */
-#footer{
-    background: #0A0826;
-    padding: 50px 0px;
-    margin-top: 100px;
-}
-.footer-container{
-    text-align: center;
-}
-.footer-title{
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 700;
-}
-.footer-copyright{
-    color: #D9DBE1;
-    font-family: Manrope;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 20px;
-}
-.footer-social-icon .social-icon{
-    margin-right: 10px;
-    text-decoration: none;
-}
-.social-icon img{
-    width: 32px;
-    transition: all ease 0.5s;
-}
-.social-icon:hover img{
-    transform: scale(1.5);
-}
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 576px){
 
     .navigation{
         flex-direction: column;
-    }
-    .navigation > .nav{
-        gap: 25px;
     }
     #banner{
         flex-direction: column-reverse;
@@ -322,27 +290,6 @@ body{
 
     .card-content-box {
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-    }
-
-
-
-    .feature-container{
-        flex-direction: column-reverse;
-        gap: 40px;
-    }
-    .feature-img{
-        width: 100%;
-    }
-    .feature-content{
-        width: 100%;
-        text-align: center;
-    }
-    .feature-content .feature-title{
-        font-size: 24px;
-        line-height: normal;
-    }
-    .feature-content .feature-description{
         width: 100%;
     }
 

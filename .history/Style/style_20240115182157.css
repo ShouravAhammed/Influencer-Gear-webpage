@@ -263,10 +263,10 @@ body{
 .footer-social-icon .social-icon{
     margin-right: 10px;
     text-decoration: none;
+    transition: all ease 0.5s;
 }
 .social-icon img{
     width: 32px;
-    transition: all ease 0.5s;
 }
 .social-icon:hover img{
     transform: scale(1.5);

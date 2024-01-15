@@ -258,19 +258,17 @@ body{
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    margin-bottom: 20px;
 }
-.footer-social-icon .social-icon{
-    margin-right: 10px;
+.footer-social-icon a img{
+    width: inherit;
+    margin-top: 20px;
+}
+.footer-social-icon a{
+
     text-decoration: none;
+    margin-right: 10px;
 }
-.social-icon img{
-    width: 32px;
-    transition: all ease 0.5s;
-}
-.social-icon:hover img{
-    transform: scale(1.5);
-}
+
 
 
 @media only screen and (max-width: 576px){
